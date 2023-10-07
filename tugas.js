@@ -60,6 +60,25 @@ console.log(`Nilai NEM Siswa Adalah ${nem}`);
 
 /* Tugas While Dan Do While */
 
+// Mencari Kelipatan dengan Angka Tertentu dengan While
+const angka = 34;
+var flag = 0;
+while (flag <= 1000) {
+  if (flag % angka == 0 && angka != 0) {
+    console.log(`[ ${flag} ]`);
+  }
+  flag++;
+}
+
+// Mencari Angka Genap Mencari Angka Genap Dengan Do While
+var tanda = 0;
+do {
+  if (tanda % 2 == 0) {
+    console.log(`[ ${tanda} ]`);
+  }
+  tanda++;
+} while (tanda <= 50);
+
 /* Tugas Function */
 
 // Membuat Fungsi Untuk Menghitung Luas Persegi Panjang
