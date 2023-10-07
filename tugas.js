@@ -44,7 +44,29 @@ switch (hari) {
 
 /* Tugas For Statement */
 
+// Program Sederhana Untuk menghitung NEM Siswa SD
+const mapel = ["Bahasa Indonesia", "Matematika", "Ilmu Pengetahuan Alam"];
+const nilai = [97, 76, 81, 67];
+var nem = 0;
+
+for (var x = 0; x < mapel.length; x++) {
+  console.log(
+    `Nilai Siswa Dalam Mata Pelajaran ${mapel[x]} Adalah ${nilai[x]}`
+  );
+  nem = nem + nilai[x] / 10;
+}
+
+console.log(`Nilai NEM Siswa Adalah ${nem}`);
 
 /* Tugas While Dan Do While */
 
 /* Tugas Function */
+
+// Membuat Fungsi Untuk Menghitung Luas Persegi Panjang
+const hitungLuasPersegi = (panjang, lebar) => {
+  return panjang * lebar;
+};
+
+// Menghitung Luas Persegi Panjang dengan Fungsi
+const hasil = hitungLuasPersegi(32, 15);
+console.log(`Jadi Hasil Luas Persegi Panjang Adalah ${hasil} CM`);
